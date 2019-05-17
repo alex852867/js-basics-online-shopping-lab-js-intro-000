@@ -84,7 +84,7 @@ return sum
 }
  // helper functions
  function notifyUserThereIsNoItemToRemove() {
-   return 'That item is not in your cart'
+   return 'That item is not in your cart.'
  }
  // helper functions
  function removeItemFromCart(itemToRemove) {
