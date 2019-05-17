@@ -39,7 +39,7 @@ function placeOrder(cardNumber) {
 function generateCartItem(itemName){
   return {
     itemName:itemName,
-    itemPrice: getRamdonInt(1, 100)
+    itemPrice:getRamdonInt(1, 100)
   }
 }
  // helper functions
