@@ -1,3 +1,18 @@
+var cart = [];
+
+function getCart() {
+ return cart;
+}
+
+function setCart(c) {
+  cart = c;
+  return cart;
+}
+
+
+
+
+
 function addToCart(item) {
 var item = generateCartItem(item)
 getCart().push(item)
@@ -87,4 +102,4 @@ var indexOfItemToRemove = cart.indexOf(itemToRemove)
 //Array.prototype.splice()
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 getCart().splice(indexOfItemToRemove,1)
-}	
+}
