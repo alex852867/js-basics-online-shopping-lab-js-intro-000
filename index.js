@@ -88,6 +88,6 @@ return sum
  }
  // helper functions
  function removeItemFromCart(itemToRemove) {
-   var indexOfItemsToRemove = cart.indexof(itemToRemove)
+   var indexOfItemsToRemove = cart.indexOf(itemToRemove)
    getCart().slice(indexOfItemsToRemove, 1)
  }
